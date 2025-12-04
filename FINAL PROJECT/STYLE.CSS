@@ -1,0 +1,238 @@
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    padding: 1rem 0;
+    width: 100%;
+}
+
+nav ul { 
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(217, 255, 0);
+    font-size: 1.2em;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(197, 0, 3); 
+}
+
+.content-section {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    min-height: 100vh; 
+    display: grid;
+    flex-direction: column;
+}
+
+#food .image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 3px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.home-images {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.home-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 6px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+  font-size: 6.5em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(255, 255, 255);
+}
+
+.second-text {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 100PX;
+    padding: 0;
+    color: rgb(0, 255, 200);
+}
+
+
+h2 {
+  font-size: 6.5em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.third-text {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    color: rgb(0, 255, 47);
+}
+
+h3 {
+  font-size: 6.5em;
+  text-align: center;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+#menu img{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+
+#food img {
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+
+p {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 1.6;
+  padding: 30px;
+  margin: 30px;
+}
+
+.text-second {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.text-xlarge {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+h4 {
+  font-size: 6.5em;
+  text-align: center;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+.login-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 500px;
+  height: 50vh;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.login-container h2 {
+  font-size: 36px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.login-container label {
+  display: flex;
+  font-size: 14px;
+  text-align: left;
+  align-items: center;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+.login-container input::placeholder {
+  color: #ccc;
+  align-items: center;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container button:hover {
+  background-color: #ddd;
+  justify-content: center;
+}
+
+h6 {
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
+  color: rgb(9, 255, 0);
+}
+
+h7 {
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
+  color: rgb(30, 255, 0);
+}
